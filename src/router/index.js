@@ -7,9 +7,6 @@ import bookRoutes from '../modules/book/route/index'
 import authRoutes from '../modules/auth-service/route/index'
 
 import Home from '../modules/auth-service/pages/sign-in/login.vue'
-// import Home from '../modules/HelloWorld.vue'
-// import Home from '../modules/productList.vue'
-// import Home from '../modules/file-uploader.vue'
 
 Vue.use(VueRouter)
 
