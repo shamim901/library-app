@@ -1,0 +1,43 @@
+# library-management-app
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Vue Router = done
+
+### Vuex = done
+# The Net Ninja Youtube Channel 
+
+### Layouts = done
+
+### mixins
+
+### Login and Registration = login done
+
+### language change
+
+### common components
+
+### common methods
+
+Deadline: 26 January 2023

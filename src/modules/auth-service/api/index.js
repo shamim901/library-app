@@ -1,0 +1,1 @@
+loginApiUrl = '/api/auth/login'
