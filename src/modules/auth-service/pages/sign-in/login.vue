@@ -1,8 +1,6 @@
 <template>
   <div class="login_wrapper" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg'); height: 100vh">
     <div>
-    <!-- {{ products[0] }}
-    {{ saleProducts[0] }} -->
       <div class="card login-form">
         <div class="card-body">
           <div class="login-form-area">
@@ -57,7 +55,6 @@
 // import { extend } from 'vee-validate';
 import axios from 'axios'
 import { ValidationObserver, ValidationProvider } from 'vee-validate'
-import { mapGetters } from 'vuex'
 import { authServiceBaseUrl } from '@/config/api_config'
 import { loginApiUrl } from '../../api/index'
 
@@ -80,18 +77,7 @@ export default {
         show: true
       }
     },
-
-  computed: {
-    products () {
-      return this.$store.state.products
-    },
-    ...mapGetters([
-      'saleProducts'
-    ])
-  },
-
   methods : {
-
     async logIn () {
       axios.post('http://127.0.0.1:8000/api/auth/login', this.form)
         .then(function (response) {
